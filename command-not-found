@@ -27,6 +27,7 @@
 
 if [ "$2" == "${2^^}" ]; then
    echo AOOOOOH MA CHE CAZZO URLI
+   else
+   echo $2: command not found
 fi
-
 
