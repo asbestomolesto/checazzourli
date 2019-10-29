@@ -7,9 +7,9 @@ you wrote a command all UPPERCASE and that command doesn't exist.
 
 Just copy it in /usr/lib/command-not-found and make it executable.
 
-Usage example:
+Usage example
 ==============
-
+```
 asbesto@rover:~$ echo hi
 hi
 asbesto@rover:~$ ECHO HI
@@ -21,6 +21,11 @@ AOOOH MA CHE CAZZO URLI
 asbesto@rover:~$ GIT CLONE
 AOOOOOH MA CHE CAZZO URLI
 asbesto@rover:~$
+
+```
+
+License
+============
 
 (C) 2019 WTFPL Gabriele "Asbesto" Zaverio
 
