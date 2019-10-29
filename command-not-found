@@ -1,0 +1,32 @@
+#!/bin/bash
+#
+# handle unexistant uppercase commands by swearing
+# (C) TTFYW by Gabriele "Asbesto" Zaverio, 2019 
+# install in /usr/lib/command-not-found. It use the
+# standard behaviour for command not found in bash and, 
+# I think, zsh. man bash for details ;)
+#
+#            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+#                    Version 2, December 2004
+#
+# Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+#
+# Everyone is permitted to copy and distribute verbatim or modified
+# copies of this license document, and changing it is allowed as long
+# as the name is changed.
+#
+#            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+#   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+#
+#  0. You just DO WHAT THE FUCK YOU WANT TO.
+#
+# USAGE: 
+#        install this script in /usr/lib/command-not-found and 
+#        make it executable. 
+#
+
+if [ "$2" == "${2^^}" ]; then
+   echo AOOOOOH MA CHE CAZZO URLI
+fi
+
+
