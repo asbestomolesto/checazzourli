@@ -1,9 +1,11 @@
 checazzourli
 ============
-bash/zsh - handling of uppercase command by swearing 
+bash/zsh - handling of uppercase / missing command by swearing 
 
 Simple command-not-found handler for bash / zsh (man bash for details) to check if
 you wrote a command all UPPERCASE and that command doesn't exist.
+
+Now you will be insulted if you enter unknown commands.
 
 Just copy it in /usr/lib/command-not-found and make it executable.
 
@@ -21,6 +23,15 @@ AOOOH MA CHE CAZZO URLI
 asbesto@rover:~$ GIT CLONE
 AOOOOOH MA CHE CAZZO URLI
 asbesto@rover:~$
+asbesto@rover:~$ vfv
+vfv: command not found, IDIOTA
+asbesto@rover:~$ vfv
+vfv: command not found, PUTTANA IMPERIALE
+asbesto@rover:~$ vfv
+vfv: command not found, TESTA DI MINCHIA
+asbesto@rover:~$ vfv
+vfv: command not found, PEZZO DI MERDA
+asbesto@rover:~$ 
 
 ```
 
