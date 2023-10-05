@@ -28,6 +28,29 @@
 if [ "$2" == "${2^^}" ]; then
    echo AOOOOOH MA CHE CAZZO URLI
    else
-   echo $2: command not found
-fi
+   echo $2: command not found, `unodi \
+    "TESTA DI CAZZO" \
+    "COGLIONE" \
+    "IMBECILLE" \
+    "FIGLIO DI PUTTANA" \
+    "SUCCHIACAZZI DI MERDA" \
+    "DEFICIENTE PATENTATO" \
+    "PEZZO DI MERDA" \
+    "MINCHIONE" \
+    "TESTA DI MINCHIA" \
+    "FIGLIO DI GRAN TROIA" \
+    "IDIOTA" \
+    "CRETINO" \
+    "SCEMO DI GUERRA" \
+    "TESTA DI GRAN CAZZO" \
+    "STUPIDO IDIOTA" \
+    "COGLIONAZZO" \
+    "FACCIA DI CAZZO" \
+    "FACCIA DI MERDA" \
+    "FACCIA DI MINCHIA" \
+    "SUCAMINCHIA DEGLI DEI" \
+    "PUTTANA IMPERIALE" \
+    "TROIONE IMMENSO" \
+    "CAZZONE"`
 
+fi
